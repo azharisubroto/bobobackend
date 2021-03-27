@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_catalogue_catalogue_links",
+  "info": {
+    "name": "Catalogue Link",
+    "icon": "crosshairs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "model": "category"
+    },
+    "banner_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

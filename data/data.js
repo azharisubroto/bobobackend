@@ -4328,4 +4328,5 @@ module.exports = {
       ]
     }
   ],
+  itemsizes: []
 };

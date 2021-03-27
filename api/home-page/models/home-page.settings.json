@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "home page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banners_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "catalogue.catalogue-link"
+    }
+  }
+}

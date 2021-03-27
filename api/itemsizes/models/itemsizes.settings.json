@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "itemsizes",
   "info": {
-    "name": "itemsizes"
+    "name": "itemsize",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "sizename": {
@@ -17,8 +18,8 @@
       "type": "string"
     },
     "products": {
-      "via": "itemsizes",
-      "collection": "product"
+      "collection": "product",
+      "via": "itemsizes"
     }
   }
 }
